@@ -29,8 +29,3 @@ Where:
 - Custom evaluation metrics (MSE, RMSE, R²)
 - Visualization of regression line and loss curve
 - Comparison with sklearn LinearRegression
-
-## How to Run
-```bash
-pip install -r requirements.txt
-jupyter notebook Linear_Regression_From_Scratch.ipynb
