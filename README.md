@@ -1,34 +1,36 @@
-\## Simple Linear Regression from Scratch
+# Linear Regression From Scratch
 
+This project implements **Simple Linear Regression from scratch** using **gradient descent**, without relying on `sklearn` for training.
 
+## Problem Statement
+Given a dataset containing **Years of Experience** and corresponding **Salary**, build a machine learning model to predict salary for new experience values.
 
-This project implements linear regression using gradient descent \*\*without sklearn\*\*.
+## Dataset
+- Source: Salary dataset
+- Features: Years of Experience
+- Target: Salary
 
+## Approach
+- Manual data normalization
+- Custom train-test split
+- Gradient Descent optimization
+- Loss function: Mean Squared Error (MSE)
 
+## Model Equation
+y = wx + b
 
-\### Features
+Where:
+- w = weight
+- b = bias
 
-\- Manual normalization
+## Features
+- Linear Regression implemented from scratch
+- No sklearn used for training
+- Custom evaluation metrics (MSE, RMSE, R²)
+- Visualization of regression line and loss curve
+- Comparison with sklearn LinearRegression
 
-\- Gradient descent optimization
-
-\- Custom train-test split
-
-\- MSE, RMSE, R² evaluation
-
-\- Comparison with sklearn
-
-
-
-\### Dataset
-
-Salary vs Years of Experience
-
-
-
-\### Results
-
-R² score > 0.9
-
-
-
+## How to Run
+```bash
+pip install -r requirements.txt
+jupyter notebook Linear_Regression_From_Scratch.ipynb
